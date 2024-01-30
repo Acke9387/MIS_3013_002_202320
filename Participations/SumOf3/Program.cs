@@ -19,3 +19,14 @@ const double MAGIC_NUMBER = 7.777;
 double magicTotal = total * MAGIC_NUMBER;
 Console.WriteLine($"The magic total is {magicTotal.ToString("N3")}.");
 
+double remainder = total % 2;
+if (remainder == 0)
+{
+    Console.WriteLine("The total of your numbers is an Even number.");
+
+}
+else
+{
+    Console.WriteLine("The total of your numbers is an Odd number.");
+}
+
