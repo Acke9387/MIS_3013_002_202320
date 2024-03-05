@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessANumber", "GuessANumbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccountInfo", "BankAccountInfo\BankAccountInfo.csproj", "{D9FEE8E3-0AAC-45B4-9B6E-D4FC57C68DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{9ECCB72D-0003-4101-B866-E8EEC1C8ED85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{9ECCB72D-0003-4101-B866-E8EEC1C8ED85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllTypesOfCollections", "AllTypesOfCollections\AllTypesOfCollections.csproj", "{5C7D6175-D928-4D13-9C68-FF6D6E34676D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9ECCB72D-0003-4101-B866-E8EEC1C8ED85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ECCB72D-0003-4101-B866-E8EEC1C8ED85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ECCB72D-0003-4101-B866-E8EEC1C8ED85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7D6175-D928-4D13-9C68-FF6D6E34676D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7D6175-D928-4D13-9C68-FF6D6E34676D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7D6175-D928-4D13-9C68-FF6D6E34676D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7D6175-D928-4D13-9C68-FF6D6E34676D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
