@@ -1,8 +1,13 @@
-﻿string[] allLinesOfFile = File.ReadAllLines("sales_data_sample.csv");
+﻿using System.Globalization;
+
+string[] allLinesOfFile = File.ReadAllLines("sales_data_sample.csv");
 
 double salesFor2003 = 0;
 double salesFor2004 = 0;
 double salesFor2005 = 0;
+
+double salesForJanuary = 0;
+double[] salesByMonth = new double[13];
 
 foreach (string line in allLinesOfFile.Skip(1))
 {
@@ -22,13 +27,43 @@ foreach (string line in allLinesOfFile.Skip(1))
         if (piecesOfLine[9] == "2003")
         {
             //salesFor2003 += Convert.ToDouble(piecesOfLine[4]);
-            salesFor2003 += sales; 
+            salesFor2003 += sales;
         }
+        else if (piecesOfLine[9] == "2004")
+        {
+            salesFor2004 += sales;
+        }
+        else if (piecesOfLine[9] == "2005")
+        {
+            salesFor2005 += sales;
+        }
+
+        //if (piecesOfLine[8] == "1")
+        //{
+        //    salesForJanuary += sales;
+        //}
+        int month = Convert.ToInt32(piecesOfLine[8]);
+        salesByMonth[month] += sales;
+
     }
 
 }
 
 Console.WriteLine($"The total sales for 2003 was {salesFor2003.ToString("C")}");
+Console.WriteLine($"The total sales for 2004 was {salesFor2004.ToString("C")}");
+Console.WriteLine($"The total sales for 2005 was {salesFor2005.ToString("C")}");
+Console.WriteLine($"The total sales for all years was {(salesFor2003 + salesFor2004 + salesFor2005).ToString("C")}");
+
+for (int i = 1; i < salesByMonth.Length; i++)
+{
+    string month = "";
+    //if (i == 1)
+    //{
+    //    month = "January";
+    //}
+    month = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i);
+    Console.WriteLine($"The total sales for all {month} is {salesByMonth[i].ToString("C")}");
+}
 
 
 //for (int i = 1; i < allLinesOfFile.Length; i++)
