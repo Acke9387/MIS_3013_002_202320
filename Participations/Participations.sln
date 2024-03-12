@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccountInfo", "BankAcco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{9ECCB72D-0003-4101-B866-E8EEC1C8ED85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllTypesOfCollections", "AllTypesOfCollections\AllTypesOfCollections.csproj", "{5C7D6175-D928-4D13-9C68-FF6D6E34676D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllTypesOfCollections", "AllTypesOfCollections\AllTypesOfCollections.csproj", "{5C7D6175-D928-4D13-9C68-FF6D6E34676D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingACsvFile", "ProcessingACsvFile\ProcessingACsvFile.csproj", "{6AE1215C-1A76-4490-83B3-9C6BC854F84B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingACsvFile", "ProcessingACsvFile\ProcessingACsvFile.csproj", "{6AE1215C-1A76-4490-83B3-9C6BC854F84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingACSVFilePart2", "ProcessingACSVFilePart2\ProcessingACSVFilePart2.csproj", "{A84318C3-4D3D-4528-B906-0DCBE917011B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{6AE1215C-1A76-4490-83B3-9C6BC854F84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE1215C-1A76-4490-83B3-9C6BC854F84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE1215C-1A76-4490-83B3-9C6BC854F84B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84318C3-4D3D-4528-B906-0DCBE917011B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84318C3-4D3D-4528-B906-0DCBE917011B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84318C3-4D3D-4528-B906-0DCBE917011B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84318C3-4D3D-4528-B906-0DCBE917011B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
