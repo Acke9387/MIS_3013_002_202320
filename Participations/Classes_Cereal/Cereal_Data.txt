@@ -1,0 +1,78 @@
+name|manufacturer|calories|cups
+100% Bran|Nabisco|70|0.33
+100% Natural Bran|Quaker Oats|120|1
+All-Bran|Kelloggs|70|0.33
+All-Bran with Extra Fiber|Kelloggs|50|0.5
+Almond Delight|Ralston Purina|110|0.75
+Apple Cinnamon Cheerios|General Mills|110|0.75
+Apple Jacks|Kelloggs|110|1
+Basic 4|General Mills|130|0.75
+Bran Chex|Ralston Purina|90|0.67
+Bran Flakes|Post|90|0.67
+Cap'n'Crunch|Quaker Oats|120|0.75
+Cheerios|General Mills|110|1.25
+Cinnamon Toast Crunch|General Mills|120|0.75
+Clusters|General Mills|110|0.5
+Cocoa Puffs|General Mills|110|1
+Corn Chex|Ralston Purina|110|1
+Corn Flakes|Kelloggs|100|1
+Corn Pops|Kelloggs|110|1
+Count Chocula|General Mills|110|1
+Cracklin' Oat Bran|Kelloggs|110|0.5
+Cream of Wheat (Quick)|Nabisco|100|1
+Crispix|Kelloggs|110|1
+Crispy Wheat & Raisins|General Mills|100|0.75
+Double Chex|Ralston Purina|100|0.75
+Froot Loops|Kelloggs|110|1
+Frosted Flakes|Kelloggs|110|0.75
+Frosted Mini-Wheats|Kelloggs|100|0.8
+Fruit & Fibre Dates; Walnuts; and Oats|Post|120|0.67
+Fruitful Bran|Kelloggs|120|0.67
+Fruity Pebbles|Post|110|0.75
+Golden Crisp|Post|100|0.88
+Golden Grahams|General Mills|110|0.75
+Grape Nuts Flakes|Post|100|0.88
+Grape-Nuts|Post|110|0.25
+Great Grains Pecan|Post|120|0.33
+Honey Graham Ohs|Quaker Oats|120|1
+Honey Nut Cheerios|General Mills|110|0.75
+Honey-comb|Post|110|1.33
+Just Right Crunchy  Nuggets|Kelloggs|110|1
+Just Right Fruit & Nut|Kelloggs|140|0.75
+Kix|General Mills|110|1.5
+Life|Quaker Oats|100|0.67
+Lucky Charms|General Mills|110|1
+Maypo|American Home Food Products|100|1
+Muesli Raisins; Dates; & Almonds|Ralston Purina|150|1
+Muesli Raisins; Peaches; & Pecans|Ralston Purina|150|1
+Mueslix Crispy Blend|Kelloggs|160|0.67
+Multi-Grain Cheerios|General Mills|100|1
+Nut&Honey Crunch|Kelloggs|120|0.67
+Nutri-Grain Almond-Raisin|Kelloggs|140|0.67
+Nutri-grain Wheat|Kelloggs|90|1
+Oatmeal Raisin Crisp|General Mills|130|0.5
+Post Nat. Raisin Bran|Post|120|0.67
+Product 19|Kelloggs|100|1
+Puffed Rice|Quaker Oats|50|1
+Puffed Wheat|Quaker Oats|50|1
+Quaker Oat Squares|Quaker Oats|100|0.5
+Quaker Oatmeal|Quaker Oats|100|0.67
+Raisin Bran|Kelloggs|120|0.75
+Raisin Nut Bran|General Mills|100|0.5
+Raisin Squares|Kelloggs|90|0.5
+Rice Chex|Ralston Purina|110|1.13
+Rice Krispies|Kelloggs|110|1
+Shredded Wheat|Nabisco|80|1
+Shredded Wheat 'n'Bran|Nabisco|90|0.67
+Shredded Wheat spoon size|Nabisco|90|0.67
+Smacks|Kelloggs|110|0.75
+Special K|Kelloggs|110|1
+Strawberry Fruit Wheats|Nabisco|90|1
+Total Corn Flakes|General Mills|110|1
+Total Raisin Bran|General Mills|140|1
+Total Whole Grain|General Mills|100|1
+Triples|General Mills|110|0.75
+Trix|General Mills|110|1
+Wheat Chex|Ralston Purina|100|0.67
+Wheaties|General Mills|100|1
+Wheaties Honey Gold|General Mills|110|0.75
