@@ -7,6 +7,7 @@ List<Cereal> cereals = new List<Cereal>();
 
 for (int i = 1; i < linesOfFile.Length; i++)
 {
+    //  0         1        2      3
     //name|manufacturer|calories|cups 
     string[] pieces = linesOfFile[i].Split('|');
     Cereal c = new Cereal();
