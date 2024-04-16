@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingACSVFilePart2", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions_Calculator", "Functions_Calculator\Functions_Calculator.csproj", "{58221F5A-96EB-4B83-8FC9-CD904D8D1E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{74557A56-2C25-4B9B-9716-B0531D2111DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{74557A56-2C25-4B9B-9716-B0531D2111DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{AA4739D6-B7F4-496A-BF48-9F0C1CA1D0AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{AA4739D6-B7F4-496A-BF48-9F0C1CA1D0AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_ToyBox", "Classes_ToyBox\Classes_ToyBox.csproj", "{AA654693-1F77-4B36-97D2-A5CEA547CC40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{AA4739D6-B7F4-496A-BF48-9F0C1CA1D0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4739D6-B7F4-496A-BF48-9F0C1CA1D0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4739D6-B7F4-496A-BF48-9F0C1CA1D0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA654693-1F77-4B36-97D2-A5CEA547CC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA654693-1F77-4B36-97D2-A5CEA547CC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA654693-1F77-4B36-97D2-A5CEA547CC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA654693-1F77-4B36-97D2-A5CEA547CC40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

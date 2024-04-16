@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Classes_Toy
+namespace Classes_ToyBox
 {
     public class Toy
     {
@@ -79,4 +79,3 @@ namespace Classes_Toy
     }
 
 }
-
