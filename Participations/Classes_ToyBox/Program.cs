@@ -1,27 +1,44 @@
 ﻿
 using Classes_ToyBox;
 
-Toy t1 = new Toy("Buzz", "Disney", 45.43, "Up up and away!");
+List<ToyBox> toyboxes = new List<ToyBox>();
 
-ToyBox tb = new ToyBox();
-
-tb.Toys.Add(t1);
-
-
-/// do not copy anything below this i am just playing around
-
-
-int x = 3;
-
-//convert x to binary
-string[] binaryValues = { "01100010", "01101001", "01110100", "01101100", "01111001", "01100100", "01110110", "01101110" };
-//convert b to ascii programmatically
-
-string asciiString = string.Empty;
-foreach (string binary in binaryValues)
+do
 {
-    int number = Convert.ToInt32(binary, 2);
-    asciiString += (char)number;
-}
-Console.WriteLine(asciiString);
+    ToyBox tb = new ToyBox();
+    Console.Write("Enter the owner's name >> ");
+    tb.Owner = Console.ReadLine();
 
+    Console.Write("Enter the location >> ");
+    tb.Location = Console.ReadLine();
+
+    do
+    {
+        Toy t = new Toy();
+        Console.Write("Enter the toy name >> ");
+        t.Name = Console.ReadLine();
+
+        Console.Write("Enter the toy manufacturer >>");
+        t.Manufacturer = Console.ReadLine();
+
+        Console.WriteLine("Enter the price of the toy >>");
+        t.Price = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Enter the notes for the toy >>");
+        t.SetNotes(Console.ReadLine());
+
+        tb.Toys.Add(t);
+        Console.WriteLine("Do you have another Toy to add to the ToyBox? yes or no >>");
+    } while (Console.ReadLine().ToLower()[0] == 'y');
+
+    toyboxes.Add(tb);
+    Console.WriteLine("Do you have another ToyBox to enter? yes or no >>");
+} while (Console.ReadLine().ToLower()[0] == 'y');
+
+
+
+foreach (ToyBox toyBox in toyboxes)
+{
+    Console.WriteLine($"This ToyBox is owned by {toyBox.Owner} and is located at {toyBox.Location}");
+    Console.WriteLine($"A random toy from this toybox is {toyBox.GetRandomToy()}");
+}
