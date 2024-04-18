@@ -10,10 +10,11 @@ namespace Classes_ToyBox
     {
 
         public List<Toy> Toys { get; set; }
-
+        public string Owner { get; set; }
         public ToyBox()
         {
             Toys = new List<Toy>();
+            Owner = string.Empty;
         }
 
     }
